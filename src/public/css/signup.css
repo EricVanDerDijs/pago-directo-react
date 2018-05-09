@@ -1,0 +1,106 @@
+html, body  {
+	font-size: 16px;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 9.25vh;
+	font-size: 1.375rem;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c61999+0,06a3e5+100 */
+	background: #c61999; /* Old browsers */
+	background: -moz-linear-gradient(10deg, #c61999 0%, #06a3e5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(10deg, #c61999 0%,#06a3e5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(10deg, #c61999 0%,#06a3e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c61999', endColorstr='#06a3e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+nav p{
+	color: white;
+}
+
+div.ui.basic.segment.introText{
+	font-size: 1.375rem;
+	padding: 0rem;
+	max-width: 312px;
+	margin: 9.07vh auto 7.31vh auto;
+}
+
+div.ui.basic.segment.introText h4{
+	font-size: 1.875rem;
+	margin-bottom: 3.33vh;
+}
+
+#root .segment:last-child{
+	border-radius: 0 0 1rem 1rem;
+}
+
+#root .segment:first-child{
+	border-radius: 1rem 1rem 0 0;
+}
+
+div.ui.segments > .segment{
+	height: 8.15vh;
+	min-height: 48px;
+	font-size: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.ui.input{
+	width: 100%;
+}
+
+div.ui.segments{
+	border-radius: 1rem;
+	margin-bottom: 2.59vh;
+}
+
+div.ui.selection.dropdown, .ui.upward.selection.dropdown.active.visible,
+.ui.upward.selection.dropdown.active, .ui.upward.selection.dropdown.visible, .ui.selection.dropdown.active.visible,
+.ui.selection.dropdown.active, .ui.selection.dropdown.visible  {
+	font-size: 1rem;
+	border-radius: 1rem !important;
+	height: 8.15vh;
+	min-height: 48px;
+	margin-bottom: 2.87vh;
+}
+
+.ui.floating.dropdown>.menu{
+	border-radius: 1rem !important;
+}
+.ui.upward.dropdown>.menu{
+	bottom: 130%;
+}
+
+body ::-webkit-scrollbar-thumb, body ::-webkit-scrollbar-track{
+	border-radius: 0 1rem 1rem 0;
+}
+
+.ui.search.selection.dropdown>input.search{
+	line-height: inherit;
+	height: 100%;
+}
+.ui.search.dropdown>.text{
+	top: 15%;
+}
+
+.ui.fluid.button{
+	background: #6586cf;
+	color: white;
+	border-radius: 150px;
+	height: 8.15vh;
+	min-height: 48px;
+}
+
+p.basic.ui.segment {
+	margin: 0;
+	color:rgba(191,191,191,.87);
+	text-align: center;
+}
+
+
+
+/* 
+div.column {
+	border: 1px solid black;
+} */
